@@ -1,6 +1,6 @@
 {% set name = "perl-io-socket-ssl" %}
-{% set version = "2.075" %}
-{% set sha256 = "c30ee2220b1e181a968ebbc81861d0cadf334b001377a44105ae5a8637ddae8c" %}
+{% set version = "2.083" %}
+{% set sha256 = "904ef28765440a97d8a9a0df597f8c3d7f3cb0a053d1b082c10bed03bc802069" %}
 
 package:
   name: {{ name }}
