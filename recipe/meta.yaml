@@ -1,6 +1,6 @@
 {% set name = "perl-io-socket-ssl" %}
-{% set version = "2.075" %}
-{% set sha256 = "c30ee2220b1e181a968ebbc81861d0cadf334b001377a44105ae5a8637ddae8c" %}
+{% set version = "2.089" %}
+{% set sha256 = "f683112c1642967e9149f51ad553eccd017833b2f22eb23a9055609d2e3a14d1" %}
 
 package:
   name: {{ name }}
@@ -45,4 +45,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - dslarm
     - cbrueffer
