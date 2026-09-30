@@ -1,10 +1,10 @@
 {% set name = "perl-io-socket-ssl" %}
-{% set version = "2.089" %}
-{% set sha256 = "f683112c1642967e9149f51ad553eccd017833b2f22eb23a9055609d2e3a14d1" %}
+{% set version = "2.099" %}
+{% set sha256 = "a0be800ff4852b1567ee5500e772417ad7a360abff80c01b5b875c15d44be832" %}
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://cpan.metacpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-{{ version }}.tar.gz
@@ -40,8 +40,8 @@ about:
   license_family: OTHER
   summary: 'Nearly transparent SSL encapsulation for IO::Socket::INET.'
   license_file:
-    - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
-    - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlartistic.pod
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlgpl.pod
 
 extra:
   recipe-maintainers:
